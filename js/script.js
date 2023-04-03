@@ -49,7 +49,7 @@ scrollReveal().reveal(
 scrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
 scrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 
-const typed = new Typed("multiple-text", {
+const typed = new Typed("#multiple-text", {
   strings: [
     "Software Developer",
     "Data Engineer",
